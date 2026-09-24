@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Family Political Discussion and Voting | PLS 210</title>
+  <style>
+    :root{--ink:#4b2d42;--muted:#745b6d;--paper:#fff7fb;--white:#fff;--teal:#a44f78;--gold:#d98aae;--line:#ead5e1;--pink:#fbe4ef;--mint:#f8eaf3;--blue:#f3e3ef}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.55 "Aptos","Segoe UI",Arial,sans-serif}a{color:var(--teal)}a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:4px}header{position:sticky;top:0;z-index:10;background:rgba(243,247,252,.97);border-bottom:1px solid var(--line)}.top{max-width:1160px;margin:auto;min-height:64px;padding:10px 26px;display:flex;align-items:center;gap:20px}.brand{font-size:.85rem;font-weight:800;letter-spacing:.08em;white-space:nowrap;color:var(--teal)}nav{display:flex;gap:5px;overflow-x:auto;scrollbar-width:thin}nav a{flex:none;text-decoration:none;font-size:.78rem;color:var(--ink);padding:9px 11px;border-radius:30px}nav a:hover,nav a.active{background:var(--teal);color:#fff}.progress{height:3px;background:var(--line)}.progress span{display:block;height:100%;background:var(--gold);width:0;transition:width .2s}.panel{min-height:calc(100svh - 67px);scroll-margin-top:67px;display:grid;align-items:center;border-bottom:1px solid var(--line);padding:65px max(24px,calc((100vw - 1100px)/2))}.inner{max-width:1100px;width:100%;margin:auto}.eyebrow{font-size:.84rem;letter-spacing:.15em;text-transform:uppercase;color:var(--teal);font-weight:800;margin:0 0 18px}h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.15;letter-spacing:-.025em}h1{font-size:clamp(2.5rem,6vw,5.3rem);max-width:950px;margin:0 0 32px}h2{font-size:clamp(2.2rem,4vw,3.7rem);margin:0 0 25px}h3{font-size:1.25rem;margin:0 0 10px}.lead{font-size:clamp(1.16rem,2vw,1.42rem);max-width:850px}.small{font-size:.93rem;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.three{grid-template-columns:repeat(3,minmax(0,1fr))}.card{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:25px;box-shadow:0 8px 26px #1926390a}.card.tint{background:var(--mint)}.card.pink{background:var(--pink)}.card.blue{background:var(--blue)}.card p:last-child{margin-bottom:0}.question{font-size:clamp(1.4rem,2.9vw,2.35rem);font-weight:750;line-height:1.35;background:var(--white);border-left:6px solid var(--gold);padding:28px 34px;border-radius:0 16px 16px 0;max-width:980px}.tags{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}.tag{padding:7px 12px;border-radius:30px;background:var(--mint);font-size:.9rem;font-weight:650}.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:12px;align-items:stretch;margin:24px 0}.flow>*{align-self:center}.flow .step{height:100%;border-radius:18px;padding:22px;background:var(--white);border:1px solid var(--line);font-weight:700;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:14px}.step-label{font:800 .78rem/1.2 "Aptos","Segoe UI",Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase;color:var(--teal)}.flow .arrow{font-size:1.8rem;color:var(--teal)}.callout{background:var(--mint);border-left:5px solid var(--teal);padding:18px 24px;border-radius:0 14px 14px 0;margin:22px 0}.warning{background:var(--pink);border-left-color:#6886b4}.source{font-size:.84rem;color:var(--muted);margin-top:14px}.sources{font-size:.91rem;line-height:1.42;columns:2;column-gap:35px;padding-left:22px}.sources li{break-inside:avoid;padding:0 0 14px 5px}.meta{display:flex;align-items:center;gap:14px;flex-wrap:wrap}.pill{border:1px solid var(--line);border-radius:99px;padding:7px 13px;font-size:.86rem;background:#fff}.foot{margin-top:38px;color:var(--muted);font-size:.88rem}.controls{position:fixed;right:20px;bottom:17px;display:flex;gap:6px;z-index:9}.controls button{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:50%;width:42px;height:42px;cursor:pointer;box-shadow:0 2px 12px #19263922;font-size:1.15rem}.controls button:hover{background:var(--mint)}.printnote{display:none}@media(max-width:760px){.grid,.three{grid-template-columns:1fr}.flow{grid-template-columns:1fr;gap:5px}.flow .arrow{transform:rotate(90deg);justify-self:center}.panel{padding:48px 22px;min-height:auto}.top{padding:8px 12px}.brand{font-size:.71rem}.sources{columns:1}.controls{display:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{header,.controls{display:none}.panel{min-height:0;display:block;padding:24px 0;break-after:page;background:white}.inner{width:100%}.card,.question{box-shadow:none}.printnote{display:block}.sources{columns:2}body{font-size:15px}}
+    .position-banner{background:var(--ink);color:#fff;padding:24px 30px;border-radius:18px;margin:0 0 28px;font-size:1.28rem}.position-banner strong{color:#ffd6e8}.position-details{display:grid;grid-template-columns:1fr 1fr;gap:22px}.position-block{padding:26px 30px;border-radius:18px;background:#fff;border:1px solid var(--line)}.position-block:nth-child(2){background:var(--mint)}.position-block h3{margin:0 0 15px}.position-block ul{margin:0;padding-left:22px}.position-block li{padding-left:4px;margin-bottom:10px}.position-block li:last-child{margin-bottom:0}.position-block li::marker{color:var(--teal)}@media(max-width:850px){.position-details{grid-template-columns:1fr}}
+    header{background:rgba(255,247,251,.97)}.warning{border-left-color:#b65f87}
+  </style>
+</head>
+<body>
+  <header><div class="top"><span class="brand">PLS 210 · RESEARCH PROPOSAL</span><nav aria-label="Presentation sections"><a href="#question">Question</a><a href="#position">Position</a><a href="#value">Value</a><a href="#camps">Camps</a><a href="#literature">Learning</a><a href="#context">Status</a><a href="#contribution">Kazakhstan</a><a href="#theory">Theory</a><a href="#mechanism">Mechanism</a><a href="#ai">AI use</a><a href="#references">References</a><a href="#reflection">Reflection</a><a href="#thanks">Thank you</a></nav></div><div class="progress"><span id="progress"></span></div></header>
+
+  <main>
+    <section class="panel" id="question"><div class="inner">
+      <p class="eyebrow">01 / Research question</p>
+      <h1>Family political socialization and voting</h1>
+      <div class="question">Can family political socialization shape electoral participation among university students in Kazakhstani parliamentary elections?</div>
+      <div class="tags"><span class="tag">Population · university students aged 18–24</span><span class="tag">Context · Kazakhstan</span><span class="tag">Outcome · voting in parliamentary elections</span></div>
+      <p class="small">Damira Salimova</p>
+    </div></section>
+
+    <section class="panel" id="position"><div class="inner">
+      <p class="eyebrow">02 / Epistemological positioning</p>
+      <h2>The driving paradigm</h2>
+      <p class="position-banner">My research belongs to the <strong>positivist school of thought.</strong></p>
+      <div class="position-details">
+        <div class="position-block"><h3>This research assumes that:</h3><ul>
+          <li>Reality is solid and “out there.”</li>
+          <li>Abstract concepts can be measured from the outside.</li>
+        </ul></div>
+        <div class="position-block"><h3>How it fits my question</h3><ul>
+          <li>My question is empirical: I can ask students about political discussions at home and whether they voted.</li>
+          <li>It is testable: I can compare discussion frequency with voting.</li>
+          <li>It is scoped to university students aged 18–24 and Kazakhstani parliamentary elections.</li>
+        </ul></div>
+      </div>
+    </div></section>
+
+    <section class="panel" id="value"><div class="inner">
+      <p class="eyebrow">03 / Relevance</p>
+      <h2>Why I think it’s worth asking</h2>
+      <div class="grid three">
+        <div class="card pink"><h3>Voting under a hybrid regime</h3><p>In Kazakhstan, voting is not simply a sign of democracy. It can show whether citizens believe that the benefits of casting a ballot are greater than its costs under existing political conditions.</p></div>
+        <div class="card"><h3>The influence of family</h3><p>Family is one of the most influential social institutions in a person’s life and an important agent of political socialization.</p></div>
+        <div class="card tint"><h3>Future legitimacy</h3><p>As older cohorts are gradually replaced by younger generations, understanding why young people vote—or do not vote—has implications for the future perceived legitimacy of the regime.</p></div>
+      </div>
+    </div></section>
+
+    <section class="panel" id="camps"><div class="inner">
+      <p class="eyebrow">04 / Literature review</p>
+      <h2>Three camps in the literature</h2>
+      <div class="grid three">
+        <div class="card pink"><p class="step-label">Camp 1</p><h3>Social Learning Theory</h3><p>Political behavior is learned through observation, communication, and modeling.</p></div>
+        <div class="card"><p class="step-label">Camp 2</p><h3>Status Transmission Theory</h3><p>Political participation reflects inherited socioeconomic resources and inequalities.</p></div>
+        <div class="card tint"><p class="step-label">Camp 3</p><h3>Kazakhstani context</h3><p>Research examines youth political culture and participation within Kazakhstan’s political conditions.</p></div>
+      </div>
+    </div></section>
+
+    <section class="panel" id="literature"><div class="inner">
+      <p class="eyebrow">05 / Literature review</p>
+      <h2>Camp 1 · Social learning and family transmission</h2>
+      <div class="grid">
+        <div class="card tint"><h3>Core idea</h3><p>Children can learn political behaviors, values, and attitudes by observing agents of political socialization, especially parents.</p><p class="source">Bandura (1977) and Jennings et al. (2009) — seminal works and my core theory</p></div>
+        <div class="card"><h3>What the evidence suggests</h3><ul><li>Civic talk with family → youth political knowledge and civic practices (Ekström & Östman, 2013).</li><li>Verbal encouragement → the likelihood of young adult voter turnout increases by 30% (Siegel-Stechler, 2021).</li><li>Parents’ voting and family discussions → higher turnout intention among adolescents (Kestilä-Kekkonen et al., 2025).</li><li>Parents’ voting → higher adult-child turnout beyond parental education (Gidengil et al., 2016).</li></ul></div>
+      </div>
+    </div></section>
+
+    <section class="panel" id="context"><div class="inner">
+      <p class="eyebrow">06 / Literature review</p>
+      <h2>Camp 2 · Status transmission</h2>
+      <div class="grid">
+        <div class="card blue"><h3>Competing explanation</h3><p>Intergenerational political reproduction is driven by inherited <strong>socioeconomic status (SES)</strong>, parental education, and structural resources rather than household communication or behavioral modeling. The explanation is based on inequalities.</p><p class="source">Verba & Schlozman (2005) · Schlozman, Verba & Brady (2013)</p></div>
+        <div class="card"><h3>What the evidence shows</h3><ul><li>Inheritance of parental SES can matter more than political learning (Verba & Schlozman, 2005).</li><li>Family and community backgrounds substantially shape electoral participation (Lahtinen et al., 2019).</li><li>Parental education matters, while parents’ voting also has a role beyond education (Gidengil et al., 2016).</li></ul></div>
+      </div>
+      <div class="callout warning"><strong>Why it matters for my proposal:</strong> Family resources may influence both discussions at home and students’ voting. This is the potential and most significant confounding factor I need to control in this research.</div>
+    </div></section>
+
+    <section class="panel" id="contribution"><div class="inner">
+      <p class="eyebrow">07 / Kazakhstan context and contribution</p>
+      <h2>Camp 3 · Kazakhstan’s political context</h2>
+      <div class="grid">
+        <div class="card tint"><h3>What has been studied</h3><ul><li>Fewer young people rely on traditional sources of political information, including family.</li><li>Young people distrust the judiciary and police—an important issue when studying parliamentary elections.</li><li>Young people highly value civic responsibility.</li></ul><p class="source">Baizhumakyzy et al. (2025) · Tolen et al. (2026)</p></div>
+        <div class="card"><h3>What is my contribution?</h3><ul><li>Test Western socialization models in a hybrid regime.</li><li>Attempt to explain the role of family political discussions in youth electoral turnout.</li></ul></div>
+      </div>
+      <div class="callout"><strong>Value of the research:</strong> A few studies examine youth political participation in Kazakhstan. In the sources I have reviewed, I did not find research directly testing the relationship between family political discussions and youth electoral turnout. I want to test Social Learning Theory specifically in the context of Kazakhstan.</div>
+      <p class="small">This is the gap I see in the sources I have read so far.</p>
+    </div></section>
+
+    <section class="panel" id="theory"><div class="inner">
+      <p class="eyebrow">08 / Theory and hypotheses</p>
+      <h2>Social learning theory and my hypothesis</h2>
+      <p class="lead"><strong>My reasoning is deductive:</strong> I start from social learning theory. Frequent conversations at home may help students understand political events and develop a sense of civic duty. I then ask whether those students are more likely to vote.</p>
+      <div class="flow" aria-label="Proposed causal mechanism"><div class="step"><span class="step-label">IV</span><span>Frequent and consistent political discussions at home</span></div><span class="arrow" aria-hidden="true">→</span><div class="step"><span class="step-label">Mechanism</span><span>Transmission and development of youth’s political knowledge and sense of civic duty</span></div><span class="arrow" aria-hidden="true">→</span><div class="step"><span class="step-label">DV</span><span>Voting in parliamentary elections</span></div></div>
+      <div class="callout"><strong>H1:</strong> University students who discuss politics at home more frequently and consistently are more likely to vote in Kazakhstani parliamentary elections.</div>
+      <p class="small">This is my proposed mechanism, not a finding. Political knowledge may not turn into voting if students see little value in elections.</p>
+    </div></section>
+
+    <section class="panel" id="mechanism"><div class="inner">
+      <p class="eyebrow">09 / Variables and mechanism</p>
+      <h2>How the proposed relationship works</h2>
+      <div class="grid three">
+        <div class="card pink"><p class="step-label">IV</p><h3>Political discussions at home</h3><p>This choice follows Social Learning Theory: observational and verbal modeling depends on the “frequency, duration, rate, and saliency of modeling cues.”</p><p class="source">Bandura (1977)</p></div>
+        <div class="card"><p class="step-label">Mechanism</p><h3>Political learning</h3><p>Frequent discussions may develop young people’s political knowledge, democratic values, and civic practices. These may strengthen their sense of civic responsibility, which may then encourage electoral participation.</p><p class="source">Jennings et al. (2009) · Ekström & Östman (2013) · Baizhumakyzy et al. (2025)</p></div>
+        <div class="card tint"><p class="step-label">DV</p><h3>Electoral participation</h3><p>Whether a student votes in Kazakhstani parliamentary elections.</p></div>
+      </div>
+      <div class="callout"><strong>Important:</strong> This is a proposed mechanism. Different studies support its separate stages, but no single study establishes the complete causal chain in Kazakhstan.</div>
+    </div></section>
+
+    <section class="panel" id="ai"><div class="inner">
+      <p class="eyebrow">10 / AI transparency</p>
+      <h2>How I worked with AI</h2>
+      <div class="grid">
+        <div class="card tint"><h3>What I used AI for</h3><ul><li>Clarifying my understanding when I was confused.</li><li>Helping me decide which ideas fit each literature camp.</li><li>Checking citations and building the presentation page.</li></ul></div>
+        <div class="card"><h3>What I did not use AI for</h3><ul><li>Generating my research idea.</li><li>Reading the sources instead of me or making my arguments for me.</li><li>Developing my own voice.</li></ul></div>
+      </div>
+      <p class="small"></p>
+    </div></section>
+
+    <section class="panel" id="references"><div class="inner"><p class="eyebrow">11 / Sources</p><h2>References</h2><ol class="sources"><li>Bandura, A. (1977). <em>Social Learning Theory.</em> Prentice Hall.</li><li>Baizhumakyzy, Z., et al. (2025). <a href="https://doi.org/10.3389/fpos.2025.1561187">Fostering democratic engagement: Factors shaping youth political participation in Kazakhstan.</a> <em>Frontiers in Political Science, 7</em>.</li><li>Ekström, M., & Östman, J. (2013). <a href="https://doi.org/10.1177/0267323113475410">Family talk, peer talk and young people’s civic orientation.</a> <em>European Journal of Communication, 28</em>(3), 294–308.</li><li>Gidengil, E., Wass, H., & Valaste, M. (2016). <a href="https://doi.org/10.1177/1065912916640900">Political socialization and voting: The parent–child link in turnout.</a> <em>Political Research Quarterly, 69</em>(2), 373–383.</li><li>Jennings, M. K., Stoker, L., & Bowers, J. (2009). <a href="https://doi.org/10.1017/S0022381609090719">Politics across generations: Family transmission reexamined.</a> <em>The Journal of Politics, 71</em>(3), 782–799.</li><li>Kestilä-Kekkonen, E., Sipinen, J., & Söderlund, P. (2025). <a href="https://doi.org/10.1111/1467-9477.12300">Family beats school? Adolescents’ turnout intention on different educational tracks.</a> <em>Scandinavian Political Studies, 48</em>(1).</li><li>Lahtinen, H., Erola, J., & Wass, H. (2019). <a href="https://doi.org/10.1093/sf/soz010">Sibling similarities and the importance of parental socioeconomic position in electoral participation.</a> <em>Social Forces, 98</em>(2), 702–724.</li><li>Schlozman, K. L., Verba, S., & Brady, H. E. (2013). <em>The unheavenly chorus: Unequal political voice and the broken promise of American democracy.</em> Princeton University Press.</li><li>Siegel-Stechler, K. (2021). <a href="https://doi.org/10.1177/0044118X19896691">Parent encouragement and young adult voting behavior: A potential outcomes approach.</a> <em>Youth & Society, 53</em>(5), 764–783.</li><li>Tolen, Z., et al. (2026). <a href="https://doi.org/10.3389/fpos.2026.1714305">Generation Z and political culture amid reforms in Kazakhstan: A case study of Almaty.</a> <em>Frontiers in Political Science, 8</em>.</li><li>Verba, S., & Schlozman, K. L. (2005). Family ties: Understanding the intergenerational transmission of political participation. In A. S. Zuckerman (Ed.), <em>The social logic of politics: Personal networks as contexts for political behavior</em> (pp. 95–114). Temple University Press.</li></ol><p class="foot">Full source details for the proposal. Continue to the reflection and questions.</p></div></section>
+    <section class="panel" id="reflection"><div class="inner">
+      <p class="eyebrow">12 / Ungraded reflection</p>
+      <h2>What AI helped me understand, and what I still don’t understand</h2>
+      <div class="grid"><div class="card tint"><h3>Clearer now</h3><p>How to work with GitHub and how to organize the literature into camps.</p></div><div class="card pink"><h3>Still working through</h3><p>How to deal with reverse causality and confounding variables in my design.</p></div></div>
+    </div></section>
+
+
+    <section class="panel" id="thanks"><div class="inner"><p class="eyebrow">13 / Discussion</p><h1>Thank you!</h1><p class="lead">I am open to your questions and suggestions.</p></div></section>
+
+  </main>
+  <div class="controls" aria-label="Section controls"><button id="prev" type="button" title="Previous section" aria-label="Previous section">↑</button><button id="next" type="button" title="Next section" aria-label="Next section">↓</button></div>
+  <script>
+    const panels=[...document.querySelectorAll('.panel')],links=[...document.querySelectorAll('nav a')];
+    function index(){let n=0;for(let i=0;i<panels.length;i++){if(panels[i].getBoundingClientRect().top<innerHeight*.44)n=i}return n}
+    function update(){let n=index();links.forEach((a,i)=>{a.classList.toggle('active',i===n);if(i===n)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')});document.getElementById('progress').style.width=((n+1)/panels.length*100)+'%'}
+    function go(delta){let n=Math.max(0,Math.min(panels.length-1,index()+delta));panels[n].scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})}
+    document.getElementById('prev').onclick=()=>go(-1);document.getElementById('next').onclick=()=>go(1);
+    addEventListener('keydown',e=>{if(e.altKey||e.ctrlKey||e.metaKey||['INPUT','TEXTAREA'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();go(1)}if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(-1)}});
+    addEventListener('scroll',update,{passive:true});addEventListener('resize',update);update();
+  </script>
+</body>
+</html>
